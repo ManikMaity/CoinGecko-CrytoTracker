@@ -18,7 +18,7 @@ The Cryptocurrency Tracker App is a robust, user-friendly application built with
 ## Features
 - Home Page displays a table of cryptocurrencies with images, names, prices, 24-hour changes, and market cap.
 - Currency Selector to toggle between USD and INR for displaying data.
-- Pagination for browsing through an extensive list of cryptocurrencies.
+- Infinite scroll browsing through an extensive list of cryptocurrencies.
 - Detailed View available by clicking on a cryptocurrency, showing image, description, current price, and a dashboard with market cap, all-time high/low, total volume, and price changes over different periods.
 - Interactive Charts displaying price, market cap, and volume data over 24 hours, 30 days, and one year.
 - Reusable Components built using the presenter-container pattern for maintainable code.
@@ -26,9 +26,10 @@ The Cryptocurrency Tracker App is a robust, user-friendly application built with
 - State Management handled by Zustand.
 - API Caching done using React Query.
 - Responsive Design powered by DaisyUI.
+- Button to switch between dark and light mode.
 - Performance Optimization with features like lazy loading, suspense, and error boundaries.
 - Search box with suggestion functionality and implimented debounce.
-- Crypto Compare functionality add two cryto coins and compare data in compare page.
+- Crypto Compare functionality - add two cryto coins and compare data in compare page.
 
 ## Preview
 **Home Page**
